@@ -10,8 +10,13 @@ Weather App is a browser-only app for finding a city, viewing its current weathe
 - [DESIGN](docs/DESIGN.md) ui design instructions are listed here
 - [ARCHITECTURE](docs/ARCHITECTURE.md) architectural design is written here
 - [SOURCES](docs/SOURCES.md) sources are written here
+- [RELEASE](docs/RELEASE.md) release data are recorded here
 
 [BACKLOG](docs/BACKLOG.md) shows the application implementation information
+
+Change the relavant feature status from `review -> inprogress` when implementing
+Change the relavant feature status from `inprogress -> done` after implementation
+Change the relavant release status from `Review -> done` after the release
 
 ## 2. Tech Stack
 
@@ -88,7 +93,7 @@ Use focused changes and descriptive commits such as `docs: define weather app re
 **For documentation:** all requested documents and three persona definitions exist, internal links resolve, the backlog has exactly one task, and planned behavior is consistent across files.
 
 **For implementation: **
-- all `WX-001` acceptance criteria pass
+- all acceptance criteria should pass
 - JavaScript lint, QUnit unit/DOM tests, and browser tests succeed
 - desktop/mobile and keyboard checks pass; setup instructions and `assets/js/config.example.js` are present
 - `index.html` and `assets/` work on a static host without compilation
