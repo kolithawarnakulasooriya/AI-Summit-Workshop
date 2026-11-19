@@ -22,7 +22,7 @@ winget install --id=astral-sh.uv  -e
 intall python: 
 type python, and windows installer will install it
 
-uv tool install specify-cli
+uv tool install --python 3.12 specify-cli
 
 if it comes with build tool error: install the build tools
 
