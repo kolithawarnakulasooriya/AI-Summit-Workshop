@@ -1,4 +1,4 @@
-# Weather App
+# Architects, Not Spectators - Let's Shift from Vibe Coding to AI Agency
 
 A planned browser-only weather app using OpenWeather's free APIs. Users can search for a city, see current conditions, and revisit weather snapshots saved on their device. No application backend or user login.
 
