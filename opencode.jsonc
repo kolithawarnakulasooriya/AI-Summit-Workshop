@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "vllm": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "vLLM",
+      "options": {
+        "baseURL": "http://10.10.10.184:8000/v1"
+      },
+      "models": {
+        "dark-side-of-the-code/Qwen3-Coder-30B-A3B-Instruct-AWQ":{
+          "name": "Qwen3-Coder-30B"
+        }
+      }
+    }
+  }
+}
