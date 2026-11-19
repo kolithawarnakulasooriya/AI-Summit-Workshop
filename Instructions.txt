@@ -1,0 +1,33 @@
+For Windows Machines
+=======================================================
+Install Opencode
+npm install -g @opencode/cli
+npm install -g --allow-scripts=@opencode/cli @opencode/cli
+
+install git
+winget install --id Git.Git -e --source winget
+
+Install Node
+fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
+fnm install --use 26
+node -v
+npm -v
+
+GitHub:
+https://github.com/kolithawarnakulasooriya/AI-Summit-Workshop
+
+SpecKit
+winget install --id=astral-sh.uv  -e
+
+intall python: 
+type python, and windows installer will install it
+
+uv tool install specify-cli
+
+if it comes with build tool error: install the build tools
+
+
+Local VLLM Setup:
+
+API Key
+Vr-6hcbWx#qI]VoP
