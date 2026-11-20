@@ -25,6 +25,6 @@
     }
   },
   "watcher": {
-    "ignore": ["Instructions.md", ".gitignore"]
+    "ignore": ["Instructions.md", ".gitignore","Workshop-AI-Summit.pdf"]
   }
 }
